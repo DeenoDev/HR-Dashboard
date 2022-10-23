@@ -1,0 +1,244 @@
+body{
+    margin:auto;
+  }
+  
+  .nav-wrapper {
+    background-color: #ffff;
+    padding: 5px;
+    width: 100%;
+    position: sticky;
+    top:0;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    z-index: 1;
+  }
+  
+  #icon{
+    max-width: 200px;
+  }
+  
+  .nav-list{
+    list-style: none;
+    padding:0;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .nav-list li{
+    display: inline;
+    margin: 0;
+    padding-top: 26px;
+  }
+  
+  .nav-list li a{
+    color: #1b91db;
+    text-decoration: none;
+    padding: 22px;
+  }
+  
+  .employees{
+    margin-left: 1.5%;
+  }
+  
+  .employee-list{
+    list-style: none;
+    padding-bottom: 10px;
+    display: inline-flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    background-color: #edeeef;
+    border-style: hidden;
+    border-radius: 10px;
+  }
+  
+  .employee-card{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border-style: hidden;
+    border-radius: 10px;
+    max-width: 100%;
+    margin: 20px;
+    padding: 15px;
+    box-shadow: 3px 3px 5px 6px #ccc;
+  }
+  
+  .user-img{
+    float: left;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 100px;
+    border-color: #1b91db;
+  }
+  
+  .employment-details{
+    display: block;
+    float: right;
+    margin-left: 20px;
+  
+  }
+  
+  .interviews{
+    margin: 1.5%;
+    width: 25%;
+    list-style: none;
+    background-color: #edeeef;
+    border-style: hidden;
+    border-radius: 10px;
+    padding: 15px;
+  }
+  
+  .list-item{
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    border-style: hidden;
+    border-radius: 5px;
+  }
+  
+  .accept-btn{
+    width: auto;
+    background-color: #36bc65;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 1% 2% 0% 0%;
+  }
+  
+  .reject-btn{
+    width: auto;
+    background-color: red;
+    border:none;
+    color:white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 1% 2% 0% 0%;
+  }
+  
+  #employeeModal{
+    text-align: center;
+    width: 30%;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    background-color: white;
+  }
+  
+  .modal-header{
+    border-radius: 10px 10px 0px 0px ;
+    background-color: #1b91db;
+  }
+  
+  .modal-header-content{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  #confirmBtn{
+    margin: 30px;
+    float: right;
+  }
+  
+  .name-format{
+    color: #1b91db;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  #confirmBtn{
+    width: auto;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #36bc65;
+  }
+  
+  #cancelBtn{
+    width: auto;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: red;
+    margin: 30px;
+    float: right;
+  
+  }
+  
+  #interviewModal{
+    text-align: center;
+    width: 30%;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    position: absolute;
+    top: 40%;
+    left:40%;
+    background-color: white;
+  }
+  
+  #confirmIntBtn{
+    width: auto;
+    border:none;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #36bc65;
+    margin: 30px;
+    float:right;
+  }
+  
+  .btn{
+    float: right;
+    background-color: #1b91db;
+    width: 8%;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 2%;
+  
+  }
+  
